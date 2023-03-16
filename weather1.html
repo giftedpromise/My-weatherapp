@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/7b6ef02594.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" plus.css">
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather app">
+      <h1 id="city"></h1>
+      <br /> <span class="date" id="date-now">02:30,Wednesday, 06 Febuary</span>
+      <br />
+       <span class="Temperature" id="temperature"></span> <br /><span class="units"><a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a> </span> <br />
+      <h2><span class="weather" id="description">Partly cloudy</span> 
+      </h2>
+      <i class='fas fa-cloud-sun cloud-icon'></i>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Search a City" id="city-search" class="form-control">
+        <input type="submit" value="Search" id="city-input" class="form-control btn btn-primary">
+      </form>
+      <button class="btn btn-success w-100" id="current-location-button">Current
+              </button>
+
+      <hr />
+      <div class="row">
+        <div class="col-4">
+         <span id="high">33</span>°C <br />
+          High
+        </div>
+        <div class="col-4">
+         <span id="wind">6</span>mph <br />
+          Wind
+        </div>
+        <div class="col-4">
+          07:04 <br />
+          Sunrise
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        
+        <div class="col-4"><span id="low">25</span>°C
+         <br />
+          Low
+        </div>
+        <div class="col-4">
+          0% <br />
+          Rain
+        </div>
+        <div class="col-4">
+          18:57 <br />
+          Sunset
+        </div>
+        <hr>
+        <p>Next 5 days</p>
+      <div class="row">
+  
+      <div class="col-2">
+       <p>Thurs<br>
+    <i class='fas fa-cloud-sun cloud-icon'></i>
+    <br>
+    33-23°C
+    </p>
+    </div>
+    <div class="col-2">
+       <p>Fri <br>
+    <i class='fas fa-cloud-sun cloud-icon'></i>
+    <br>
+    33-23°C
+    </p>
+    </div>
+    <div class="col-2">
+       <p>Sat <br>
+    <i class='fas fa-cloud-sun cloud-icon'></i>
+    <br>
+    33-24°C
+    </p>
+    </div>
+    <div class="col-2">
+       <p>Sun <br>
+    <i class='fas fa-cloud-sun cloud-icon'></i>
+    <br>
+    33-24°C
+    </p>
+    </div>
+    <div class="col-2">
+       <p>Mon <br>
+    <i class='fas fa-cloud-sun cloud-icon'></i>
+    <br>
+    34-24°C
+    </p>
+    </div>
+    </div>
+    </div>
+       </div>
+       <script src=src/file.js></script>
+  </body> 
+</html>
