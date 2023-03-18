@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(43, 50, 178) 0%,
+    rgb(20, 136, 204) 100%
+  );
+  color: white;
+  margin: 12px;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.date {
+  font-size: 20px;
+  margin: 0;
+}
+.weather {
+  font-size: 20pxpx;
+}
+.cloud-icon {
+  font-size: 50px;
+  color: yellow;
+}
+.Temperature {
+  position: relative;
+  top: 1;
+  right: 2px;
+  font-size: 60px;
+  margin-right: 220px;
+}
+.units {
+  font-size: 40px;
+}
+.weather app {
+  border: 1px solid white;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.search-form {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.form.control {
+  margin-top: 30px;
+  font-size: 40px;
+}
