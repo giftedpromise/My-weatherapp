@@ -104,7 +104,7 @@ function convertToFahrenheit(event) {
 function convertToCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 33;
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
 }
 
 // challenge 1
