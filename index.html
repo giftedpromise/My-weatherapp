@@ -22,7 +22,7 @@
       <br /> <span class="date" id="date-now">02:30,Wednesday, 06 Febuary</span>
       <br />
        <span class="Temperature" id="temperature"></span> <br /><span class="units"><a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a> </span> <br />
-      <h2><span class="weather" id="description">Partly cloudy</span> 
+      <h2><span class="weather" id="description"></span> 
       </h2>
      <img src="" alt="Clear" id="icon" class="float-left" />
       <form class="search-form" id="search-form">
@@ -66,44 +66,27 @@
         </div>
         <hr>
         <p>Next 5 days</p>
-      <div class="row">
-  
-      <div class="col-2">
-       <p>Thurs<br>
-    <i class='fas fa-cloud-sun cloud-icon'></i>
-    <br>
-    33-23°C
-    </p>
+      <div class="weather-forecast" id="forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thurs</div>
+                 <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temp">
+                  <span class="weather-forecast-temp-max">18°</span>
+                  <span class="weather-forecast-temp-min"> 12°</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
     </div>
-    <div class="col-2">
-       <p>Fri <br>
-    <i class='fas fa-cloud-sun cloud-icon'></i>
-    <br>
-    33-23°C
-    </p>
-    </div>
-    <div class="col-2">
-       <p>Sat <br>
-    <i class='fas fa-cloud-sun cloud-icon'></i>
-    <br>
-    33-24°C
-    </p>
-    </div>
-    <div class="col-2">
-       <p>Sun <br>
-    <i class='fas fa-cloud-sun cloud-icon'></i>
-    <br>
-    33-24°C
-    </p>
-    </div>
-    <div class="col-2">
-       <p>Mon <br>
-    <i class='fas fa-cloud-sun cloud-icon'></i>
-    <br>
-    34-24°C
-    </p>
-    </div>
-    </div>
+      </div>
+      
     </div>
        </div>
        <span> <small><a href="https://github.com/giftedpromise/My-weatherapp" target="blank">open-source code</a>
